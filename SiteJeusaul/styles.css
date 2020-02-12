@@ -1,0 +1,137 @@
+@font-face {
+    font-family: AlanFont;
+    src: url(./font/AlanFont-Regular.otf);
+  }
+  
+
+
+body{
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image:url("./images/background2.png");
+    margin: auto;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+header{
+    height: 5vh;
+    display: flex;
+}
+
+.bumper{
+    flex-grow: 1;
+}
+
+ul{
+    padding: 0 20px 0 0;
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    border-bottom: 2px solid none;
+    font-size : 130%;
+    font-weight: 700;
+    padding: 10px;
+}
+
+nav ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+
+header img{
+    padding: 20px 0 0 10px;
+    width: 30px;
+}
+
+
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    letter-spacing: 10px;
+    width: 100%;
+    font-family: AlanFont;
+    color: white;
+    text-align: center;
+    font-size: 800%;
+    position: absolute;
+    bottom:250px;
+}
+
+.entete{
+    height: 95vh;
+    width: 100%;
+}
+section{
+    margin: auto;
+    width: 75%;
+}
+
+
+h3{
+    margin :0;
+    padding : 0 0 10px 0;
+    letter-spacing: 5px;
+    font-size: 400%;
+    font-family: AlanFont;
+}
+
+
+h4{
+    margin :0;
+    padding : 0 0 10px 10px;
+    letter-spacing: 5px;
+    font-size: 200%;
+    font-family: AlanFont;
+}
+
+section p{
+    margin: 0;
+    padding :10px 0 0 25px;
+    letter-spacing: 1px;
+    font-weight:100;
+    font-size: 110%;
+}
+
+
+.secJou{
+    width: 80%;
+}
+
+.jouabilite{
+    display: flex;
+}
+
+
+.jouabilite article{
+    text-align: left;
+    width: 29%;
+    padding: 2%;
+}
+
+
+section:not(.entete){
+    padding-bottom: 100px;
+}
+
+section img{
+    width: 50%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.images{
+    flex-wrap: wrap;
+    display: flex;
+    width: 100%;
+    display: flex;
+}
